@@ -35,11 +35,9 @@ gallery.html:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Photo Gallery</title>
-    <!-- Link to external CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Title -->
     <h1>Interactive Photo Gallery</h1>
 
     <!-- Gallery Container -->
@@ -61,7 +59,6 @@ gallery.html:
         </div>
     </div>
 
-    <!-- Lightbox -->
     <div id="lightbox" onclick="closeLightbox()">
         <span id="close-btn">&times;</span>
         <img id="lightbox-img" src="" alt="Enlarged Photo">
@@ -72,7 +69,6 @@ gallery.html:
         Designed by Kishore
     </footer>
 
-    <!-- Link to external JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
@@ -80,7 +76,6 @@ gallery.html:
 
 style css :
 
-/* General body styling */
 body {
     font-family: 'Playfair Display', serif;
     margin: 0;
@@ -88,7 +83,6 @@ body {
     color: #f1f2f6;
 }
 
-/* Title styling */
 h1 {
     text-align: center;
     margin: 50px 0;
@@ -99,7 +93,6 @@ h1 {
     letter-spacing: 3px;
 }
 
-/* Gallery Container */
 .gallery-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -109,7 +102,6 @@ h1 {
     margin: 0 auto;
 }
 
-/* Individual gallery item */
 .gallery-item {
     position: relative;
     overflow: hidden;
@@ -173,7 +165,6 @@ footer {
 
 script.js:
 
-// Function to open the lightbox with the clicked image
 function openLightbox(imageSrc) {
     const lightboxImg = document.getElementById('lightbox-img');
     const lightbox = document.getElementById('lightbox');
@@ -182,7 +173,6 @@ function openLightbox(imageSrc) {
     lightbox.style.display = 'flex';
 }
 
-// Function to close the lightbox
 function closeLightbox() {
     const lightbox = document.getElementById('lightbox');
     lightbox.style.display = 'none';
