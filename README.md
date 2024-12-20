@@ -40,7 +40,6 @@ gallery.html:
 <body>
     <h1>Interactive Photo Gallery</h1>
 
-    <!-- Gallery Container -->
     <div class="gallery-container">
         <div class="gallery-item" onclick="openLightbox('R (1).jpeg')">
             <img src="R (1).jpeg" alt="Photo 1">
@@ -64,7 +63,6 @@ gallery.html:
         <img id="lightbox-img" src="" alt="Enlarged Photo">
     </div>
 
-    <!-- Footer -->
     <footer>
         Designed by Kishore
     </footer>
