@@ -121,7 +121,6 @@ h1 {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
 
-/* Lightbox styling */
 #lightbox {
     display: none;
     position: fixed;
